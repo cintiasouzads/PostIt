@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html, body {
+    font-family: Bebas Neue;
+    background-color: rgb(205, 179, 179);
+}
+
+.post-it {
+    padding: 1em;
+    margin: 1rem;
+    width: 15rem;
+    height: auto;
+    display: inline-block;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 0.625rem rgba(0, 0, 0, 0.1);
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
+}
+
+h1 {
+    color: rgb(85, 57, 57);
+}
+
+.tarefa-item {
+    display: flex;               
+    align-items: center;         
+    justify-content: flex-start; 
+}
+
+.tarefa-item input[type="checkbox"] {
+    margin-right: 0.5rem; 
+}
+
+#adicionar {
+    padding: 1rem;
+    font-size: large;
+    border-radius: 0.610rem;
+}
+
+#inputTarefa {
+    padding: 1rem;
+    border-radius: 0.625rem;
+}
